@@ -1,0 +1,97 @@
+.header {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    width: 99%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    box-shadow: 0px 1px 5px -2px;
+    z-index: 1000;
+}
+
+.content {
+    margin-top: 120px;
+}
+
+img {
+    margin-right: 10px;
+}
+
+.leftSide {
+    background-color: white;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightSide {
+    background-color: rgb(50, 37, 238);
+    width: 70%;
+    padding-left: 10px;
+    color: white;
+    align-items: center;
+}
+
+.par {
+    margin: 5px;
+}
+
+.orange {
+    margin: 5px;
+    display: inline;
+    padding: 5px;
+    background-color:#F2C94C;
+}
+
+.orangeText {
+    display: inline;
+}
+
+.firstname {
+    display: block;
+    height: 30px;
+    width: 250px;
+}
+.lastname {
+    display: block;
+    height: 30px;
+    width: 250px;
+}
+
+input {
+    margin-top: 10px;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+    background-color: #0052D0;
+    color: white;
+    width: 260px;
+    height: 35px;
+    border-radius: 5px;    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.reg {
+    margin: 10px;
+    margin-top: 30px;
+}
+
+label {
+    margin-top: 15px;
+}
+
+.number {
+    color: white;
+    text-decoration: none;
+}
+
+.number:hover {
+    color: yellow;
+}

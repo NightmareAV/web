@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="leftSide">
+            <img src="./img/f3.svg">
+            <p>Базовая разметка</p>
+        </div>
+        <div class="rightSide">
+            <pre>Г. Сургут   <a class="number" href="#">892022220202</a></pre>
+        </div>
+    </div>
+    
+    <div class="content">
+        <p class="par">У страницы <strong>всегда</strong> есть элемент <strong>html</strong>, <strong>head</strong>,
+            <strong>body</strong></p>
+        <p class="par"><strong>Блочные элементы</strong> - занимают все пространство по ширине,
+            поэтому всегда переносятся на новую строку</p>
+        <p class="par"><strong>Инлайн элемент</strong> - занимают столько места, сколько требует содержимое.
+            Если в строке хватает места, то они размещаются на одной строке</p>
+        <p class="par">Чаще всего используются следующие элементы:</p>
+        <p class="orange">&lt;div&gt;&lt;/div&gt;</p>
+        <p class="orangeText"> - Блочный элемент</p>
+        <br><br>
+        <p class="orange">&lt;span&gt;&lt;/span&gt;</p>
+        <p class="orangeText"> - Инлайн элемент</p>
+        <br><br>
+        <p class="orange">&lt;h1&gt;&lt;/h1&gt;</p>
+        <p class="orange">&lt;h2&gt;&lt;/h2&gt;</p>
+        <p class="orange">&lt;h3&gt;&lt;/h3&gt;</p>
+        <p class="orange">&lt;h4&gt;&lt;/h4&gt;</p>
+        <p class="orange">&lt;h5&gt;&lt;/h5&gt;</p>
+        <p class="orangeText"> - Заголовки блочные элементы</p>
+        <br><br>    
+        <p class="orange">&lt;img src="ссылка на изображение"/&gt;</p>
+        <p class="orangeText"> - Изображение, инлайн элемент</p>
+        <br><br>    
+        <p class="orange">&lt;label for="input-id"&gt;&lt;/label&gt;</p>
+        <p class="orangeText"> - Текст подпись для элементов input. При клике на этот текст фокусируются сами инпуты.</p>
+        <br><br>
+        <p class="orange">&lt;input type="text"/&gt;</p>
+        <p class="orangeText"> Строка ввода текста, является инлайн элемент</p>
+        <br><br>
+        <p class="orange">&lt;input type="radio"/&gt;</p>
+        <p class="orangeText"> Радио кнопка, является инлайн элемент</p>
+        <br><br>
+        <p class="orange">&lt;input type="checkbox"/&gt;</p>
+        <p class="orangeText"> Чекбокс, является инлайн элемент</p>
+        <br><br>
+        <p class="orange">&lt;a href="Ссылка"&gt;&lt;/a&gt;</p>
+        <p class="orangeText">  - Ссылка, инлайн элемент </p>
+        <br><br>
+        <p class="orange">&lt;button&gt;&lt;/button&gt;</p>
+        <p class="orangeText">  - Кнопка, инлайн элемент  </p>
+        <br><br>
+        <p class="orange">&lt;ul&gt;&lt;/ul&gt;</p>
+        <p class="orange">&lt;ol&gt;&lt;/ol&gt;</p>
+        <p class="orange">&lt;li&gt;&lt;/li&gt;</p>
+        <p class="orangeText">  - Список с маркерами, нумерованный список, элемент списка. Блочные элементы.</p>
+        <br><br>
+        <p class="orange">&lt;table&gt;&lt;/table&gt;</p>
+        <p class="orange">&lt;thead&gt;&lt;/thead&gt;</p>
+        <p class="orange">&lt;tbody&gt;&lt;/tbody&gt;</p>
+        <p class="orange">&lt;tr&gt;&lt;/tr&gt;</p>
+        <p class="orange">&lt;td&gt;&lt;/td&gt;</p>
+        <p class="orangeText">  - Таблица, заголовок таблицы, тело таблицы, строка и ячейка. Ячейки вкладываются в строки, а строки вкладываются в заголовок и тело таблицы</p>
+        <br><br>
+        <p class="orange">&lt;form&gt;&lt;/form&gt;</p>
+        <p class="orangeText">  - Форма. Служит для отправки данных на сервер. Включает в себя элементы input для ввода данных и кнопку button для отправки данных на сервер</p>
+        <br><br>
+        <p class="orange">&lt;link rel="stylesheet" href="url"/&gt;</p>
+        <p class="orangeText">  - Присоединение к HTML файлу других документов, обычно это файлы CSS стилей</p>
+        <br><br>
+        <p class="orange">&lt;script src="url"&gt;Код JS для выполения&lt;/script&gt;</p>
+        <p class="orangeText">  - Присоединение к HTML файлу файлов JS скриптов или выполнение JS кода  </p>
+        <br><br>
+        <p class="orange">&lt;p&gt;&lt;/p&gt;</p>
+        <p class="orangeText"> - Элемент, представляющий собой абзац текста  </p>
+    
+        
+        <form action="" class="reg">
+            <label for="ln">Фамилия</label>
+            <input id="ln" type="text" class="lastname" placeholder="Введите вашу фамилию">
+            <label for="fn">Имя</label>
+            <input id="fn" type="text" class="firstname" placeholder="Введите ваше имя">
+            <input id="cb" type="checkbox" class="consent">
+            <label for="cb">Согласен с условиями пользовательского соглашения</label>
+            <button class="btn">Отправить</button>
+        </form>
+    </div>
+</body>
+
+</html>
