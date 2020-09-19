@@ -70,7 +70,8 @@ img {
 }
 
 input {
-    margin-top: 15px;
+    margin-bottom: 18px;
+    margin-top: 5px;
 }
 
 .cb {
@@ -81,7 +82,7 @@ input {
 
 button {
     display: block;
-    margin-top: 30px;
+    margin-top: 10px;
     background-color: #0052D0;
     color: white;
     width: 362px;
