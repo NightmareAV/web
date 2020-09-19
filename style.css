@@ -1,8 +1,11 @@
 .header {
+    width: 100%;
+    min-width: 100%;
+    min-height: 13%;
     position: fixed;
     top: 0px;
+    left: 0;
     display: flex;
-    width: 99%;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -12,7 +15,7 @@
 }
 
 .content {
-    margin-top: 120px;
+    margin-top: 100px;
 }
 
 img {
@@ -35,34 +38,42 @@ img {
     align-items: center;
 }
 
-.par {
-    margin: 5px;
+.par {    
+    margin-top: 10;
 }
 
 .orange {
     margin: 5px;
-    display: inline;
     padding: 5px;
     background-color:#F2C94C;
+    border-radius: 5px;
 }
 
-.orangeText {
-    display: inline;
-}
 
 .firstname {
     display: block;
-    height: 30px;
-    width: 250px;
+    width: 362px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #B8B8B8;
+    box-sizing: border-box;
 }
 .lastname {
     display: block;
-    height: 30px;
-    width: 250px;
+    width: 362px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #B8B8B8;
+    box-sizing: border-box;
 }
 
 input {
     margin-top: 10px;
+}
+
+.cb {
+    width: 24px;
+    height: 27px;
 }
 
 button {
@@ -70,12 +81,14 @@ button {
     margin-top: 10px;
     background-color: #0052D0;
     color: white;
-    width: 260px;
-    height: 35px;
+    width: 362px;
+    height: 45px;
     border-radius: 5px;    
     font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
 }
 
 .reg {
