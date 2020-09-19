@@ -70,7 +70,7 @@ img {
 }
 
 input {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .cb {
@@ -81,7 +81,7 @@ input {
 
 button {
     display: block;
-    margin-top: 10px;
+    margin-top: 30px;
     background-color: #0052D0;
     color: white;
     width: 362px;
@@ -99,10 +99,6 @@ button {
 .reg {
     margin: 10px;
     margin-top: 30px;
-}
-
-label {
-    margin-top: 15px;
 }
 
 .number {
