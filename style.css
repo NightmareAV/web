@@ -57,6 +57,7 @@ img {
     border-radius: 5px;
     border: 1px solid #B8B8B8;
     box-sizing: border-box;
+    background: #F4ECEC;
 }
 .lastname {
     display: block;
@@ -65,6 +66,7 @@ img {
     border-radius: 5px;
     border: 1px solid #B8B8B8;
     box-sizing: border-box;
+    background: #F4ECEC;
 }
 
 input {
